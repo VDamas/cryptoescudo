@@ -72,15 +72,15 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     ./cryptoescudo-qt_test
     
 ### Cryptoescudo info
-  shortName : CESC
-  longName  : Cryptoescudo
-  messagePrefix: '\x18Cryptoescudo Signed Message:\n'
-  messagePrefix: '\u0018Cryptoescudo Signed Message:\n',
-  bip32: {
-    public: 0x0488b21e,  // 76067358
-    private: 0x0488ade4, // 76066276
-  },
-  pubKeyHash: 0x1c,      // 28
-  scriptHash: 0x5,       // 5
-  wif: 0x9c,             // 156
-  coinNumber:            // 111
+    shortName : CESC
+    longName  : Cryptoescudo
+    messagePrefix: '\x18Cryptoescudo Signed Message:\n'
+    messagePrefix: '\u0018Cryptoescudo Signed Message:\n',
+    bip32: {
+       public: 0x0488b21e,  // 76067358
+       private: 0x0488ade4, // 76066276
+    },
+    pubKeyHash: 0x1c,      // 28
+    scriptHash: 0x5,       // 5
+    wif: 0x9c,             // 156
+    coinNumber:            // 111
